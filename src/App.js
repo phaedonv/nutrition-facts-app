@@ -44,6 +44,10 @@ class App extends Component {
         <div>
           <button onClick={() => this.getFoodStats()}>Add Ingredient</button>
         </div>
+
+        <div>
+          {this.state.foodstats.protein}
+        </div>
       </div>
     );
 }
