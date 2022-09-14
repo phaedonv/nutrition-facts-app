@@ -13,7 +13,7 @@ class App extends Component {
 
   getFoodStats() {
     var newIngredient = document.getElementById('ing').value;
-    console.log(newIngredient);
+    //console.log(newIngredient);
 
      //Use your app's API Key here:
     var api_key = 'DEMO_KEY'; 
